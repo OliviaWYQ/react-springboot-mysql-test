@@ -1,2 +1,8 @@
 # react-springboot-mysql-test
-testdb
+setup testdb:
+
+mysql -uroot -p < "testdb.sql"
+
+reference:
+
+https://grokonez.com/spring-framework/spring-data-rest/spring-boot-react-redux-mysql-crud-example
