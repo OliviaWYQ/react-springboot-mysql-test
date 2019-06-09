@@ -1,7 +1,7 @@
 # react-springboot-mysql-test
-setup testdb:
+setup test:
 
-mysql -uroot -p < "testdb.sql"
+mysql -uroot -p < "test.sql"
 
 reference:
 
